@@ -1,0 +1,7 @@
+# include <stdio.h>
+int main(){
+    char a,b;
+    printf( "hello\n%s",a);
+    printf("world %s",b);
+    return 0;
+}
