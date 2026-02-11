@@ -1,0 +1,8 @@
+# include <stdio.h>
+int main(){
+    int num1 =10;
+    float num2 =10.0;
+    num1 = num2;
+    printf("%.1f",num2);
+    return 0;
+}
