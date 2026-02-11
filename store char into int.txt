@@ -1,0 +1,9 @@
+# include <stdio.h>
+int main(){
+    char ch = 'a';
+    int num;
+    num = ch;
+    printf("string:%c\n",ch);
+    printf("integer:%d\n",num);
+    return 0;
+}
