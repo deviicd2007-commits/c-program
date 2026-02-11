@@ -1,0 +1,6 @@
+# include <stdio.h>
+int main(){
+    int a=22,b=22;
+    printf("%d",a+b);
+    return 0;
+}
