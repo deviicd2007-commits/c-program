@@ -1,0 +1,20 @@
+# include<stdio.h>
+int main(){
+    int month;
+    scanf("%d",&month);
+    switch(month){
+        case 1:
+        printf("1 or 19 days");
+        break;
+        case 2:
+        printf("20 or 29 days");
+        break;
+        case 3:
+        printf("30 days");
+        break;
+        default:
+        printf("Invalid months");
+    }
+    return 0;
+    
+}
